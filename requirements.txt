@@ -1,0 +1,5 @@
+opencv-python>=4.10
+matplotlib>=3.8
+transformers==4.41.0
+patchify >= 0.2.3 #installiert numpy mit (=2.2.6)
+tifffile>=2025.8.28

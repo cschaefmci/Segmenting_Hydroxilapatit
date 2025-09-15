@@ -1,0 +1,9 @@
+{
+  "methode": "otsu_band",
+  "parameter": {
+    "band_halfwidth": 20,
+    "shift_dy": 8,
+    "close_ksize": 8,
+    "otsu_threshold": 39
+  }
+}

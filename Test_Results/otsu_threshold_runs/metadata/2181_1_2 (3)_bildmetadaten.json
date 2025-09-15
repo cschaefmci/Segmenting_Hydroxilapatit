@@ -1,0 +1,11 @@
+{
+  "bildkennung": "2181_1_2 (3)",
+  "eingabe_bild": "C:\\Users\\Constantin\\Desktop\\Segmenting_Hydroxilapatit\\input_files\\images\\test\\2181_1_2 (3).tif",
+  "eingabe_tps": "C:\\Users\\Constantin\\Desktop\\Segmenting_Hydroxilapatit\\input_files\\TPS_layer\\test\\2181_1_2 (3).png",
+  "eingabe_gt": "C:\\Users\\Constantin\\Desktop\\Segmenting_Hydroxilapatit\\input_files\\masks\\test\\2181_1_2 (3).png",
+  "verfahrensart": "Otsu Band um Schwellwert",
+  "prob_map_definition": "Nahewert zu Otsu Schwellwert im Band",
+  "band_halfwidth": 20,
+  "shift_dy": 8,
+  "close_ksize": 8
+}

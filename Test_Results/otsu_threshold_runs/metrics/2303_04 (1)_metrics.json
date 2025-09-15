@@ -1,0 +1,9 @@
+{
+  "dice": 0.0,
+  "iou": 0.0,
+  "mae_dicke": 42.640234375,
+  "bias_dicke": -21.268359375,
+  "max_abs_err": 147,
+  "abdeckung": 0.0,
+  "laufzeit_ms": 421.7
+}
