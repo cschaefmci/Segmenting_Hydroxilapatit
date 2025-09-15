@@ -1,0 +1,12 @@
+{
+  "bildkennung": "2303_01 (4)",
+  "patchgroesse": 256,
+  "schrittweite": 128,
+  "ueberlappung": 0.5,
+  "schwellenwert": 0.8,
+  "verwendete_nachbearbeitung": "keine",
+  "prompt_quelle": "ha",
+  "ha_shift_px": 110,
+  "blending": "cosine_window_hanning_eps1e-3",
+  "prob_map_skalierung": "round(prob*255)"
+}
