@@ -7,28 +7,26 @@ Die Arbeit umfasst die Datenaufbereitung, das Training und die Evaluation von Se
 
 ## Struktur des Repositories
 
-- **Notebooks/**  
+- **notebooks/**  
   Enthält die im Rahmen der Arbeit entwickelten Google-Colab-Notebooks.  
   Sie dokumentieren Datenexploration, Modelltraining sowie Evaluationsschritte.  
 
-- **Modelle/**  
+- **Predict_HA/SAM_models**  
   Enthält die trainierten SAM-Varianten und Finetuning-Gewichte.  
   Große Dateien werden über **Git LFS** verwaltet.  
 
-- **src/** (optional, falls vorhanden)  
-  Python-Skripte zur Vorverarbeitung, Trainingssteuerung und Evaluierung.  
+- **input_files/**  
+  Verwendete Datensätze. Aufgeteilt in images, masks und TPS_layer
 
-- **data/** (nicht versioniert)  
-  Verzeichnis für Roh- und verarbeitete Daten. Aufgrund der Dateigröße und Datenschutzrichtlinien werden die Daten nicht im Repository gespeichert.  
+  - colab_image_preprocessing.py beinhaltet das Beschriebene Verfahren der Datenvorverarbeitung
+  - patched_images enhält die unterschiedlich vorbereiteten Datensätze
+
+- **threshold_method/**  
+  Verzeichnis für den Otsu Thresholding Ansatz
+
+- **outpu_files/**
+  Beinhaltet die im Ergebnisteil Evaluierten Methoden Otsu_Threshold, SAM und, HA_SAM
 
 ---
 
-## Installation
 
-Das Projekt setzt eine Python-Umgebung voraus (empfohlen: Python ≥3.9).  
-Alle notwendigen Pakete können über die bereitgestellte `requirements.txt` installiert werden:
-
-```bash
-python -m venv .venv
-source .venv/bin/activate   # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
